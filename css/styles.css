@@ -1,0 +1,112 @@
+#title {
+  background-color: rgba(0, 2, 3, 0.3);
+  color: #fff;
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5; 
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+  background: rgb(2,9,5);
+background: linear-gradient(0deg, rgba(2,9,5,0.38561362044817926) 0%, rgba(101,138,22,0.3015800070028011) 100%);
+}
+
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-field {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.download-app {
+  display: inline-block;
+  text-align: center;
+}
+
+.fa.fa-desktop {
+  font-size: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa.fa-check-circle {
+  font-size: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa.fa-handshake-o {
+  font-size: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card.h-100.bg-transparent {
+  border-style: none;
+}
+
+.card.mb-3.bg-transparent {
+  border-style: none;
+}
+
+#features{
+  margin: 5%;
+}
+
+#feedbacks {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(168, 174, 171, 0.25);
+}
+
+#partners {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(168, 174, 171, 0.25);
+  padding-bottom: 20px;
+}
+
+#pricing {
+  margin: 5%;
+}
+
+#footer {
+  height: 2rem;
+  background-color: rgba(59, 66, 62, 0.201);
+  color: #dad7cd;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .imgPartners {
+    width: 100px;
+  }
+  #pricing {
+    width: 80%;
+  } 
+}
