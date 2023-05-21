@@ -107,6 +107,28 @@ nav {
     width: 100px;
   }
   #pricing {
-    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   } 
+  .download-field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .iphoneImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .img-fluid.rounded-start {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
